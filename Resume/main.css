@@ -1,0 +1,155 @@
+/*.header 
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    position: relative;
+    font-weight: 700;
+    text-align: center;
+}
+*/
+
+.container {
+    position: relative;
+    padding: 30px
+}
+
+p {text-align: center;}
+div {text-align: center;}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    position: relative;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    position: relative;
+    font-weight: 500;
+    text-align: center;
+    color:grey;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 25%;
+    text-align: center;
+    border-style:hidden;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:x-small;
+    border-radius: 15px;
+    box-shadow: 0 0 0 5px gainsboro;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;    
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
+
+  td:nth-child(odd) {
+    padding-left: 15px;
+    text-align: right;
+  }
+
+  .field {
+    border: none;
+    border-spacing: 0px;
+  }
+  
+  .field tr,
+  .field td {
+    border: none;
+    padding: 0px;
+    vertical-align: top;
+  }
+  
+  .field td {
+    width: 48px;
+    height: 48px;
+    position: relative;
+  }
+  
+  .field img {
+    position: absolute;
+    display: block;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+  }
+
+  .objective {
+    position: relative;
+    padding: 10px;
+  }
+
+ .objective h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    position: relative;
+    font-weight: 700;
+    text-align: left;
+    color:black;
+    text-transform: uppercase;
+}
+
+.objective p {    
+    text-align: left;
+    color:black;
+}
+
+.experience
+{
+    position: relative;
+    padding-left: 10px;;
+}
+
+.experience h2
+{
+    text-align: left;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    position: relative;
+    font-weight: 700;
+    text-align: left;
+    color:black;
+    text-transform: uppercase;
+}
+.role {
+    position: relative;
+    padding-left: 10px;  
+}
+.role h3 {
+    position: relative;
+    text-align: left;
+    border:none;
+    padding-top: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;    
+}
+
+.employer {
+    position: relative;
+    padding-left: 10px;  
+}
+
+.employer h4 {
+    position: relative;
+    text-align: left;
+    border:none;
+    padding-top: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    color: grey;      
+}
