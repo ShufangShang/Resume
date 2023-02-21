@@ -33,7 +33,7 @@ h2 {
     color:grey;
 }
 
-table {
+.contact {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 25%;
@@ -125,8 +125,12 @@ table {
     text-transform: uppercase;
 }
 .role {
+    padding-top: 0px;
     position: relative;
-    padding-left: 10px;  
+    padding-left: 10px;
+    padding-bottom:0px; 
+    line-height: 0.5em;
+
 }
 .role h3 {
     position: relative;
@@ -136,12 +140,26 @@ table {
     font-size: 16px;
     font-weight: 700;
     color: black;
-    text-transform: uppercase;    
+    text-transform: uppercase;
+    padding-bottom: 0px;    
+}
+
+.role p {
+  position: relative;
+  text-align: left;
+  border:none;
+  padding-top: 0px;
+  font-size: 15px;
+  font-weight: 700;
+  color: gray;
+  padding-bottom: 0px;    
 }
 
 .employer {
+    padding-top: 0px;
     position: relative;
-    padding-left: 10px;  
+    padding-left: 10px;
+    padding-top: 0px;  
 }
 
 .employer h4 {
@@ -152,4 +170,142 @@ table {
     font-size: 15px;
     font-weight: 700;
     color: grey;      
+}
+.adjust-line-height {
+  line-height: 1em;
+}
+
+.tasks {
+  padding-top: 0px;
+  position: relative;
+  padding-left: 10px;
+  padding-bottom:0px; 
+  
+}
+
+.tasklist{
+  padding-top: 0px;
+  position: relative;
+  padding-left: 10px;
+  padding-bottom:0px; 
+  
+}
+
+.tasklist li {
+  
+    overflow-wrap: break-word;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.education {
+  position: relative;
+  padding-left: 10px;  
+  padding-bottom: 0px;
+}
+
+.education h2 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: grey;
+  text-align: left;
+  color:black;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  position: relative;
+  font-weight: 700;
+  text-align: left;
+  color:black;
+  text-transform: uppercase;
+}
+
+.school {
+  padding-top: 0px;
+  position: relative;
+  padding-left: 10px;
+  padding-bottom:0px; 
+  line-height: 0.5em;
+
+}
+.school h3 {
+  position: relative;
+  text-align: left;
+  border:none;
+  padding-top: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  padding-bottom: 0px;    
+}
+
+.school p {
+position: relative;
+text-align: left;
+border:none;
+padding-top: 0px;
+font-size: 15px;
+font-weight: 700;
+color: gray;
+padding-bottom: 5px;    
+}
+
+.skills {
+  position: relative;
+  padding-left: 5px; 
+  padding-top: px;
+}
+
+.skills h2 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: grey;
+  text-align: left;
+  color:black;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  position: relative;
+  font-weight: 700;
+  text-align: left;
+  color:black;
+  text-transform: uppercase;
+}
+
+.skill {
+    position: relative;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    border-style:hidden;
+    margin-left:auto;
+    margin-right:auto;
+    
+    font-size:medium;
+    border-radius: 15px;
+    box-shadow: 0 0 0 5px gainsboro;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.skill td {
+  position: relative;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  border-style:hidden;
+  /*margin-left:auto;
+  margin-right:auto;
+  */
+  font-size:medium;
+  border-radius: 15px;
+  box-shadow: 0 0 0 5px gainsboro;
+  overflow-wrap: break-word;
 }
